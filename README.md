@@ -1,5 +1,5 @@
 # Candidate Application & Score Calculator
-![JOIN PHP Test](https://i.imgur.com/msT4Blg.png)
+![JOIN PHP Full-Stack Test](https://i.imgur.com/msT4Blg.png)
 
 ## Context
 
@@ -37,6 +37,7 @@ As a Recruiter:
 - Use either vanilla JavaScript or jQuery, you can of course go further and use anything else, but that's not necessary and gives no points
 - If the external API is too slow, make sure it's not visible or felt by the user, find a way to make load/wait time a pleasure. Maybe kitten paws loader?
 - You can download the existing candidates data into your database of choice (Files / SQLite / other) and make the application talk only with the database and not with the API endpoint we have provided
+- *This test involves full-stack skills, you will have to put up a markup, style it with CSS, make async (AJAX) requests to the server, process it, store in DB and return a response to the client without a page refresh*
 
 ## Instructions
 - Fork this repo
