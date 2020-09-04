@@ -1,5 +1,5 @@
 # Candidate Application & Score Calculator
-![JOIN React Test](https://i.imgur.com/msT4Blg.png)
+![JOIN PHP Test](https://i.imgur.com/msT4Blg.png)
 
 ## Context
 
@@ -28,27 +28,22 @@ As a Recruiter:
   - 20% if phone provided
   - *[OPTIONAL]* 50% if image uploaded (calculate accordingly if implemented or not)
 - [ ] I want by clicking on the "..." menu, be able to "delete" the candidate (hide from display)
-- [ ] I want by clicking on the "..." menu, be able to change candidate state from "submitted" to "in review" to either "not a fit" or "hired"
-  
+- [ ] I want by clicking on the "..." menu, be able to change candidate state from "submitted" to either "in review", "not a fit" or "hired"
+
 ## Technical Notes
-There's no restriction to backend technology, you can e.g.:
-- utilize localStorage for candidate data storage (as your backend) and merge it with existing API data
-- spin up a NodeJS server
-
-If the external API is too slow, make sure it's not visible or felt by the user, find a way to make load/wait time a pleasure. Maybe kitten paws loader?
-
-## Tech Stack
-- Use ReactJS with TypeScript
-- Test your code with a preferred library of your choice (feel free to choose either unit tests or E2E tests with Cypress, *we prefer the latter*)
-- Linter, CSSinJS is a plus
+- You can use Composer, npm or nothing, it's really up to you how to setup this application
+- Please use PHP for this assignment, feel free to use pure language or any framework you like
+- Use files or SQLite for storage
+- Use either vanilla JavaScript or jQuery, you can of course go further and use anything else, but that's not necessary and gives no points
+- If the external API is too slow, make sure it's not visible or felt by the user, find a way to make load/wait time a pleasure. Maybe kitten paws loader?
+- You can download the existing candidates data into your database of choice (Files / SQLite / other) and make the application talk only with the database and not with the API endpoint we have provided
 
 ## Instructions
-
 - Fork this repo
 - Commit early and often. We want to be able to check your way of thinking
-- Make the app public. Deploy it using the service of your choice (Vercel, Cloud Run, Heroku)
 - Create a pull request so we can review your code and comment on it
 - Do not spend more than 5 hours on the test, you will have a chance to submit fixes when our engineers review your code
+- OPTIONAL: Make the app public. Deploy it using the service of your choice (Vercel, Cloud Run, Heroku)
 
 ## Disclaimer
 You don't have to finish all of that, but we would really love to see a working piece.
